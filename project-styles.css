@@ -1,0 +1,38 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    
+    background-image: url(117AA5D7-657C-46A0-B16D-70C50B4F8468_1_105_c.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+}
+nav{
+    background-color: rgb(207, 72, 27);
+    grid-area: nav;
+}
+
+nav ul li a{
+        text-decoration: none;
+        color: rgb(159, 124, 74);  
+    
+}
+
+main{
+    color: white;
+    grid-area: main;
+
+}
+.project-grid img {
+    width :20%;
+    border-bottom: 5px solid rgb(178, 145, 53);
+}
+     
+
+footer{
+    grid-area: footer;
+}
